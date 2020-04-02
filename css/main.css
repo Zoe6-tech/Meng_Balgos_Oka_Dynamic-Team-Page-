@@ -1,0 +1,258 @@
+body{
+	background-color:#81b0b2 ;
+	color: #00738c;
+}
+#container{
+	width: 1300px;
+	height: 600px;
+	margin: 80px auto;	
+	font-family: 'Comic Neue', cursive;
+	background-color: #d6ead4;
+}
+
+h1{
+	font-size: 40px;
+	padding-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+#container p{
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+#Info{
+	width: 1100px;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.members{
+	height:auto;
+    padding: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+
+
+#Elaine{
+	position: relative;
+	margin-left: 50px;
+}
+
+#oka{
+	position: relative;
+	margin-top: 90px;
+	margin-left: 30px;
+}
+
+#zhu{
+	position: relative;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px; 
+    top: 0px;
+    overflow: hidden;
+    text-align: center;
+    opacity:0;
+    background-color:rgba(48, 152, 157, 0.4);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
+}
+
+.members img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.members h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:18px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.members a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:2px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:200px 0 0;
+padding:7px 14px;
+}
+
+
+.members a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.members:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.members:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.members:hover h2,.members:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+
+
+.memberInfo{
+	display: flex;
+	flex-direction: row;
+}
+
+.memberInfo img{
+    max-width: 300px;
+    padding: 70px;
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.memberInfo img:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.Detail{
+   padding-top: 30px;
+   padding-right: 30px;
+   width: 70%;
+}
+
+.Detail h2{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+.Detail h3{
+	font-size: 21px;
+	padding-bottom: 5px;
+}
+
+.Detail h4{
+	font-size: 18px;
+	padding-bottom: 2px;
+}
+
+.Detail p{
+	font-size: 16px;
+}
+
+.Detail ul li{
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+.boardbox{
+	position: absolute;
+    background-color: #eff2db;
+	width: 70%;
+	height:500px;
+    display: none;
+    border: 5px solid #81b0b2;
+}
+
+.show-boardbox{
+  display: block;
+}
+
+.close-button{
+  color: #97a675;
+  font-size: 30px;
+  padding: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.boardbox2{
+	position: absolute;
+    background-color: #eff2db;
+	width: 70%;
+	height:500px;
+    display: none;
+    border: 5px solid #81b0b2;
+}
+
+.show-boardbox2{
+  display: block;
+}
+
+.close-button2{
+  color: #97a675;
+  font-size: 30px;
+  padding: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.boardbox3{
+	position: absolute;
+    background-color: #eff2db;
+	width: 70%;
+	height:500px;
+    display: none;
+    border: 5px solid #81b0b2;
+}
+
+.show-boardbox3{
+  display: block;
+}
+
+.close-button3{
+  color: #97a675;
+  font-size: 30px;
+  padding: 10px;
+  float: right;
+  cursor: pointer;
+}
